@@ -8,24 +8,59 @@
 var foods = {
   apples: 23, 
   grapes: 507, 
-  eggs: 48
+  eggs: 48,
 }
 
 // Write code that prints all of the 'keys' of the foods variable 
 // you created above:
 // YOUR CODE HERE
 
+var foods = {
+  apples: 23, 
+  grapes: 507, 
+  eggs: 48,
+}
+
+console.log(Object.keys(foods))
+
+
 // Write code that prints all of the 'values' of the foods variable 
 // you created above:
 // YOUR CODE HERE
+
+var foods = {
+  apples: 23, 
+  grapes: 507, 
+  eggs: 48,
+}
+
+console.log(Object.values(foods))
 
 // Write code that prints the value of the second food of the foods variable 
 // you created above:
 // YOUR CODE HERE
 
+
+var foods = {
+  apples: 23, 
+  grapes: 507, 
+  eggs: 48,
+}
+
+console.log(foods.grapes)
+
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
 // YOUR CODE HERE
+
+var foods = {
+  apples: 23, 
+  grapes: 507, 
+  eggs: 48,
+}
+foods.bananas = 100
+
+console.log(foods)
 
 
 // -------------------
@@ -41,15 +76,43 @@ var foods = {
 
 // Write code that logs your email object to the terminal.
 
+var email = {
+  sender: "Snoop",
+  subject: "Lunch",
+  content: "List of restaurants",
+  date: "Jul. 12, 1987",
+  cc: "Wally",
+  Attachment: true,
+}
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
 // YOUR CODE HERE
 
+var email = {
+  sender: "Snoop",
+  subject: "Lunch",
+  content: "List of restaurants",
+  date: "Jul. 12, 1987",
+  cc: "Wally",
+  Attachment: true,
+}
+console.log(Object.keys(email))
+
 // Write code that logs all of the 'values' of the email object 
 // you created above:
 // YOUR CODE HERE
 
+
+var email = {
+  sender: "Snoop",
+  subject: "Lunch",
+  content: "List of restaurants",
+  date: "Jul. 12, 1987",
+  cc: "Wally",
+  Attachment: true,
+}
+console.log(Object.values(email))
 
 // -------------------
 // Part 3: Many Emails - CHALLENGE!
@@ -99,3 +162,34 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+
+mail = [
+  {
+    sender: "Snoop",
+    subject: "Lunch",
+    content: "List of restaurants",
+    date: "Jul. 12, 1987",
+    cc: "Wally",
+    Attachment: true,
+  },
+  {
+    sender: "Wally",
+    subject: "Dinner",
+    content: "Best dog gone food",
+    date: "Aug. 11, 1987",
+    cc: "Snoop",
+    Attachment: false,
+  },
+  {
+    sender: "Snoop",
+    subject: "Sick",
+    content: "Food poisoning",
+    date: "Sept. 14, 1987",
+    cc: "Wally",
+    Attachment: true,
+  }
+]
+console.log(mail);
+
+
